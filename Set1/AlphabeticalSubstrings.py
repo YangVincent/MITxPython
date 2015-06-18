@@ -1,12 +1,3 @@
-
-#s = 'kocibsxkbec' #bsx
-#s = 'ggnlfdktaatxv' #aatx
-#s = 'ioownrsocumeshalkrytyvs' #ioow
-#s = 'ytjaakglkb' #
-#s = 'deigapgfsfmuxqpapfbfra' #dei
-s = 'abcdefghijklmnopqrstuvwxyz'
-print('s is ' + s)
-#print("Hello World")
 counter = 2
 biggest = 2
 length = len(s) - 1
@@ -22,7 +13,5 @@ for i in range(length):
   else:
     counter = 2
     currentString = s[i+1]
-#print("The biggest is " + str(biggest))
-#print("The longest string is " + longestString)
 print('counter is ' + str(counter))
 print(longestString)
