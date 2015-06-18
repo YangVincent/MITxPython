@@ -1,7 +1,3 @@
-
-
-
-
 def monthlyInterestRate(annualInterestRate):
   return (annualInterestRate/12.0)
 def minimumMonthlyPayment(minimumMonthlyPaymentRate, previousBalance):
@@ -11,7 +7,6 @@ def monthlyUnpaidBalance(previousBalance, minimumMonthlyPayment):
   return previousBalance - minimumMonthlyPayment
 def updatedBalance(monthlyUnpaidBalance, monthlyInterestRate):
   return monthlyUnpaidBalance + monthlyInterestRate * monthlyUnpaidBalance
-
 
 balance = 4213
 annualInterestRate = 0.2

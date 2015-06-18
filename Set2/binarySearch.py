@@ -1,6 +1,3 @@
-
-
-
 balance = 320000
 annualInterestRate = 0.2
 monthlyInterestRate = annualInterestRate/12
